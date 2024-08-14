@@ -14,11 +14,10 @@ sequenceDiagram
     participant XA as X-Men: Apocalypse (2016)
     participant L as Logan (2017)
     participant DP2 as Deadpool 2 (2018)
-    participant DP2 as Deadpool 2 (2018)
     participant DM as Dark Phoenix (2019)
     participant NM as The New Mutants (2020)
 
-    Note over X1: The original trilogy
+    Note over X1, X3: The original trilogy
     X1->>X2: X2 continues
     X2->>X3: The Last Stand concludes the trilogy
 
@@ -33,8 +32,8 @@ sequenceDiagram
     DA->>DP2: Deadpool 2 follows
 
     Note over L: Standalone conclusion
-    L->>end: Logan ends Wolverine’s story
+    L->>L: Logan ends Wolverine’s story
 
     Note over DM, NM: Final Fox movies
-    DM->>NM: Dark Phoenix and New Mutants end the era
+    DM->>NM: Dark Phoenix and New Mutants wrap up the series
 ```
